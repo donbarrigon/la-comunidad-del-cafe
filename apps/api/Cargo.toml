@@ -1,0 +1,8 @@
+[package]
+name = "la-comunidad-del-cafe-api"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+ironforge = { path = "/media/don-barrigon/steam-ssd/projects/ironforge/core" }
+tokio = { version = "1", features = ["full"] }
